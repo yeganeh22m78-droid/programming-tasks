@@ -1,0 +1,13 @@
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+>>> print("Program starting.")
+... 
+... word1 = input("Insert first word: ")
+... word2 = input("Insert second word: ")
+... 
+... print(f"1st word is {len(word1)} characters long.")
+... print(f"2nd word is {len(word2)} characters long.")
+... 
+... compound = word1 + word2
+... print(f"Words together makes one closed compound '{compound}'.")
+... 
